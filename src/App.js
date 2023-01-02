@@ -1,9 +1,10 @@
+import ProfileList from "./components/ProfileList";
 
 
 function App() {
   return (
-    <div className="">
-      <h1 className='text-center'>Hello</h1>
+    <div className="bg-blue-400">
+      <ProfileList/>
     </div>
   );
 }
